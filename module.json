@@ -1,0 +1,14 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Traducir-chat-Nova",
+    "author": "Prav/Loliconera",
+    "version": "v29.04",
+    "description": "Traduce mensajes entrantes y salientes a otro idioma usando Google Translate.",
+    "options": {
+        "niceName": "Traducir-chat",
+        "settingsVersion": 2,
+        "settingsFile": "config.json",
+        "settingsMigrator": "src/setting_migration.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/Loliconera/translate-chat-spanish-nova/master/"]
+}
