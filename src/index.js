@@ -41,9 +41,9 @@ module.exports = class Translator {
     };
 
     const CHAT_SERVER_PACKETS = [
-      ['S_CHAT', this.mod.majorPatchVersion >= 108 ? 4 : 1],
-      ['S_WHISPER', this.mod.majorPatchVersion >= 108 ? 4 : 1],
-      ['S_PRIVATE_CHAT', 1]
+        ['S_CHAT', 2],
+        ['S_WHISPER', 2],
+        ['S_PRIVATE_CHAT', 1]
     ];
     for (const [packet, version] of CHAT_SERVER_PACKETS) this.mod.hook(packet, version, { order: 100 }, event => incomingMsgHandler(packet, version, event));
     const CHAT_CLIENT_PACKETS = [['C_WHISPER', 1], ['C_CHAT', 1]];
