@@ -1,4 +1,4 @@
-# Traducir-chat-NOVA
+# Traducir-chat-NOVA-TERA
 
 # Traducir-chat
 
